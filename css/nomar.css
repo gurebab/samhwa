@@ -57,6 +57,16 @@ p , span{
   font-weight: bold;
   margin-bottom: 20px;
 }
+.text-hide{
+  overflow: hidden;
+  border: 0;
+  position: absolute;
+  z-index: -1;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+}
 
 
 
